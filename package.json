@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "preview": "vite preview",
-    "build": "babel src -d dist"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@uiball/loaders": "^1.2.6",
@@ -15,10 +15,6 @@
     "react-router-dom": "^6.4.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.23.9",
-    "@babel/core": "^7.23.9",
-    "@babel/preset-env": "^7.23.9",
-    "@babel/preset-react": "^7.23.3",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",
