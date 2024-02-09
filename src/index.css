@@ -35,13 +35,12 @@
 body {
 	font-family: 'Montserrat';
 }
-/* Globales */
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
 }
 
-/* Header */
+
 header {
 	display: flex;
 	align-items: center;
@@ -72,7 +71,7 @@ header form {
 }
 
 .form-group input {
-	/* padding: 15px 30px; */
+	
 	font-family: inherit;
 	width: 300px;
 	border: none;
@@ -104,7 +103,7 @@ header form {
 	color: #000;
 }
 
-/* Btn Filter */
+
 .container-filter {
 	display: flex;
 }
@@ -124,7 +123,7 @@ header form {
 	stroke: #555;
 }
 
-/* Card List Pokemon */
+
 .card-list-pokemon {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
